@@ -19,7 +19,7 @@ public class PiedraPapelTijera {
 
 	public void jugar() {
 		resultado = false;
-		int tiradaRival = (int) Math.floor(Math.random() * 3 + 0);
+		int tiradaRival = (int) Math.floor(Math.random() * 3);
 		if (miTirada == 0 && tiradaRival == 2 || miTirada == 1 && tiradaRival == 0
 				|| miTirada == 2 && tiradaRival == 1) {
 			resultado = true;
